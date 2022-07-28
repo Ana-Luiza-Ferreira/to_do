@@ -1,0 +1,43 @@
+.sectionContent {
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    place-self: center;
+    flex-direction: row;
+    place-content: center;
+}
+
+.text {
+    margin-right: 3em;
+}
+
+.algoForm {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+}
+
+.radioBtnContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px;
+}
+
+@media (max-width: 800px) {
+    .sectionContent {
+        width: 100%;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .algoForm {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .radioBtnContainer {
+        width: 50%;
+    }
+}
