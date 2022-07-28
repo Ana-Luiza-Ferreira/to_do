@@ -1,4 +1,4 @@
-import './styles/App.css'
+import './App.css'
 import { useEffect, useState } from 'react'
 import Form from './components/Form/Form'
 import Input from './components/Input/Input'
